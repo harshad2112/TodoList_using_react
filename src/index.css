@@ -1,4 +1,40 @@
-body{
-    margin: auto;
+.to-do{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* display: flex; */
+    flex-direction: column;
+    width: 20%;
+    padding: 10px 5px 10% ;
+    margin:10% auto;
+    /* border: solid black 1px; */
+    box-shadow: 5px 5px 20px 1px rgba(0, 234, 255, 0.561);
+    background-color: rgb(162, 229, 255);
+    border-radius: 15px;
+}
+.head{
+    display: flex;
+    /* border:solid 1px black; */
+}
+.fa{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+h1{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    /* border: solid black 1px; */
+    
+}
+.todo-div{
+    /* border: black solid 1px; */
+    /* width: 90%;   */
+    margin-left: 10px;
+    margin-top:20px; margin-bottom:20px;
+    display: flex;
+
+}
+.text{
+    margin-left: 5px;
 }
